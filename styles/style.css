@@ -23,7 +23,8 @@
 }
 
 #hero .hero-content{
-    width: 950px;
+    width: 998px;
+    
 
 }
 .primary{
@@ -33,19 +34,43 @@
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 24px;
 }
 
-.sub{
+.secondary{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+
+
+.sub-sec{
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing:0%;
     text-align: center;
+    margin-bottom: 48px;
+}
+
+#hero .sub{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing:0%;
+    text-align: center;
+    margin-bottom: 32px;
 
 }
 
-.img-container{
+#hero .img-container{
     text-align: center;
     height: 240px;
     margin-bottom: 32px;
@@ -53,6 +78,7 @@
 
 .btn-container{
     text-align: center;
+    /* margin-bottom: 24; */
 }
 .btn{
     background-color: #0D1321;
@@ -62,4 +88,54 @@
     border: none;
     padding: 21px 24px;
     border-radius: 10px;
+}
+
+#goal{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    padding: 80px 97px;
+    background-size: cover;
+    width: 1140px;
+    
+}
+
+#goal .goal-sec-heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-bottom: 26px;
+    
+}
+
+#goal .goal-sub-sec{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing:0%;
+    margin-bottom: 26px;
+}
+
+.btn-2{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0D1321;
+    border: 1;
+    padding: 12px 20px;
+    border-radius: 0;
+
+}
+
+ #goal .sub-section{
+    display: flex;
+    justify-content: space-between;
+    /* background-image: linear-gradient(white black); */
+    padding: 48px;
+} 
+
+#goal .section-contant{
+    margin: ;
 }

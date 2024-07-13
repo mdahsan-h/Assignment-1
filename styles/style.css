@@ -116,6 +116,8 @@
     line-height: 26px;
     letter-spacing:0%;
     margin-bottom: 26px;
+    
+    /* background: linear-gradient(to right, #FFFFFF, ); */
 }
 
 .btn-2{
@@ -134,8 +136,30 @@
     justify-content: space-between;
     /* background-image: linear-gradient(white black); */
     padding: 48px;
+    background-color: white;
 } 
 
 #goal .section-contant{
     margin: ;
+}
+
+.video{
+    margin: 80px 80px;
+    align-items: center;
+
+}
+
+.video-info{
+    /* display: flex; */
+
+}
+
+.video-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: ;
+    border-radius: ;
+    margin: ;
+
 }

@@ -163,3 +163,34 @@
     margin: ;
 
 }
+
+.target{
+    /* width: 1140px; */
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    width: 1140px;
+}
+.targets{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+    
+}
+.target-contant{
+    padding: 40px;
+    border-radius: 10px;
+}
+ 
+.html-bg{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg{
+    background-color: rgba(255, 223, 0, 0.05);
+}
